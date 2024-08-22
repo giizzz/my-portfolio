@@ -1,0 +1,122 @@
+/* body,html{
+    div.dinamik-background{
+        background:url('http://www.alaoglutasarim.com/duvar-kagitlari/wallpaper-307.jpg') -25px -50px;
+        background-size: calc(100% + 50px);
+        width: 1280px;
+        height: 720px;
+    }
+}
+#hareket{
+    width: 100%; height: 120px; background: url('/img/sky.png') repeat;
+} */
+.contact{
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+.section-1{
+    margin: 2em auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+}
+.section-left{    
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    height:240px;
+    border-radius: 50%;
+    background-color: rgba(18, 25, 41,0.4);
+    text-align: center;
+}
+.section-right{
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 240px;
+    height:240px;
+}
+form{
+    max-height: fit-content;
+}
+label{
+    word-spacing: 1px;
+}
+input , textarea{
+    border: none;
+    background-color:  rgba(18, 25, 41, 0.6);
+    color:#fff;
+    width: 100% ;
+}
+textarea{
+    resize: none;
+    font-size: small;
+    height: 4rem;
+}
+/* .sub-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.send-button{
+    display: flex;
+    width:5em; 
+    margin: 0.5em auto;
+    border: none;
+    background-color:transparent;
+    color:#fff;
+}
+.send-button:hover{
+    transform: scale(1.1,1.1);
+    
+}
+.sub-icon{
+    margin: auto;
+    margin-left: 5px;
+    display: flex;
+    width: 12px;
+}
+
+.section-2{
+    margin: 20px auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-2 div{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.section-2 div p{
+    margin-left: 1em;
+}
+
+@media screen and (max-width:768px) {
+    .section-1 {
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width:500px) {
+    .section-1 {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .section-left{
+            margin-bottom: 2em;
+        }
+}

@@ -1,0 +1,22 @@
+.footer{
+    margin: 5px auto;
+    display: flex;
+    justify-content: center;
+    min-height: 40px ;
+    width: 80%;
+
+}
+.contact{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+}
+ul li{
+    margin: 0 10px;
+    display: flex;
+}

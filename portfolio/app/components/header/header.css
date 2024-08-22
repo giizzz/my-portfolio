@@ -1,0 +1,73 @@
+
+.head{
+    width: 80%;
+    background: linear-gradient(-45deg, 
+    hsl(0, 0%, 51%) 0%, 
+     hsl(0, 0%, 38%) 25%, 
+     hsl(0, 0%, 21%) 50%,
+     hsl(0, 0%, 11%) 75%, 
+     hsl(0, 0%, 0%) 100%);
+     position: relative;
+     background-size: 300% 300%;
+     animation: arkaPlanaHareketKat 7.5s linear infinite;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+   border-radius: 16px;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon{
+    display: flex;
+}
+.logo{
+    margin: 0 5px;
+    margin-left: 0;
+    border-radius: 16px;
+}
+.parts{
+    /* justify-content: end; */
+    display: flex;
+    width: 40%;
+}
+.l{
+    margin: 0 auto;
+}
+@keyframes arkaPlanaHareketKat{
+    0%{
+      background-position: 0 50%;
+    }
+    50%{
+      background-position: 100% 50%;
+    }
+    100%{
+      background-position: 0 50%;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+@media screen and (max-width:800px) {
+    .parts{
+        width: 60%;
+    }
+}
+@media screen and (max-width:550px) {
+    .parts{
+        width: 80%;
+    }
+}

@@ -1,0 +1,141 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1rem auto;
+    align-items: center;
+}
+/* part1 */
+.part-1{
+    margin:5em auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+}
+.left-part{
+    margin:auto ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.h-container{
+    width: 100%;
+}
+.right-part{
+    margin:0 auto;
+    justify-content: center;
+    width: 50%;
+}
+.left-part h1{
+    margin-bottom: 1em;
+    font-size: xx-large;
+    width: 100%;
+    text-align:center;
+}
+.animated-text{
+    font-size: x-large;
+    margin:0 auto;
+    display: flex;
+}
+/* part2 */
+.part-2{
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.tabHead{
+    display: flex;
+    justify-content: space-between;
+}
+.part-2 button{
+    border: none;
+    margin: 2rem ;
+    color: white;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: rgba(18, 25, 41, 0.6);
+}
+.tabButton:hover{
+    transform: scale(1.15,1.15);
+}
+.tabBody{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    height: 170px;
+}
+.tabBody p {
+    word-wrap: break-word;
+    text-wrap: wrap;
+}
+.tabContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* part3 */
+.part-3{
+    margin:5em auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 75%;
+}
+.skill{
+    margin: 0 auto;
+}
+.skill:hover{
+    transform: scale(1.1);
+    filter: drop-shadow(4px 3px 5px rgb(0, 64, 255));
+}
+/* part4 */
+.part-4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.part-4 h2{
+    font-size: xx-large;
+}
+.projects{
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.sec{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem ;
+    justify-content: center;
+}
+.sec h5{
+    display: flex;
+    margin: 1em auto;
+}
+
+@media screen and (max-width:768px) {
+    .part-1{
+       margin: 3em 0;
+       width: 95%;
+    }
+}
+@media screen and (max-width:500px) {
+    .part-1{
+        flex-direction: column;
+    }
+    .left-part{
+        margin-bottom: 2em;
+    }
+    .projects{
+        flex-direction: column;
+    }
+}

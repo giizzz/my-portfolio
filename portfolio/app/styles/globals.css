@@ -1,0 +1,140 @@
+*{
+  box-sizing: border-box;
+}
+html,body,#__next{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding:0;
+  overflow: hidden;
+}
+body{
+
+  background-color: #0d1117;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  color:#fff;
+}
+
+image,img{
+  object-fit: cover; 
+}
+.home{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.part_1{
+  margin: 5rem 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 90%;
+}
+
+.left-part{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 22rem;  
+}
+.left-part h3{
+  margin-top: 3rem;
+  word-wrap: wrap;
+  text-align: center;
+  font-size: large;
+}
+.left-part button{
+  margin: 3rem;
+  display: inline-flex;
+  border: none;
+  color: white;
+  background-color: transparent;
+}
+.left-part button:hover{
+  transform: scale(1.1);
+}
+.dl-icon{
+  margin: auto;
+  margin-left:5px;
+}
+
+.right-part{
+  display: flex;
+}
+
+.img-box{
+  width: 260px;
+  height: 260px;
+  border-radius:48% 52% 46% 54% / 64% 27% 73% 36% ;
+  background-color: rgba(60, 60, 60, 0.5);
+  position:absolute;
+  z-index: -1;
+}
+.img-box2{
+  width: 260px;
+  height: 260px;
+  border-radius:37% 63% 58% 42% / 53% 68% 32% 47%  ;
+  background-color: rgba(49, 49, 49, 0.7);
+  position:absolute;
+  z-index: -2;
+}
+
+.photo{
+  border-radius:100% 49% 35% 91% / 77% 100% 38% 60% ;
+}
+
+.right-part:hover{
+  .img-box {
+      animation: mymove 16s linear;
+      animation-iteration-count: infinite;
+  }
+  .img-box2{
+      animation:mymove 16s ease-in;
+      animation-iteration-count: infinite;
+  }
+}
+
+@keyframes mymove{
+  0%{
+      transform: rotate(0deg);
+  }
+  25%{
+      transform: rotate(360deg);
+  }
+  50%{
+      transform: rotate(720deg);
+  }
+  75%{
+      transform: rotate(1080deg);
+  }
+  100%{
+      transform: rotate(1440deg);
+  }
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 10%;
+}
+::-webkit-scrollbar-track {
+  background-color: #0d1117;
+}
+::-webkit-scrollbar-thumb {
+  background: #24292f; 
+  border-radius:10px ;
+}
+
+@media screen and (max-width:768px) {
+  .part_1{
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+  }
+  .left-part{
+    max-width: 90%;
+    margin-top: 2em;
+  }
+}
