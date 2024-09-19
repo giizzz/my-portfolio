@@ -2,12 +2,12 @@
     {
         "id":1,
         "baslik":"Personel Info",
-        "desc":"Name : Gizem Piroğlu\nPhone : 05527402618\nE-mail: gizempiroglu.gp@gmail.com\nBday : Born on 20 Mar, 2002\nMessage : I'm a frontend developer.\nI create interactive and responsive web application..\nI'm a team player and quick learner."
+        "desc":"Name : Gizem Piroğlu\nE-mail: gizempiroglu.gp@gmail.com\nBday : Born on 20 Mar, 2002\nMessage : I'm a frontend developer.\nI create interactive and responsive web application..\nI'm a team player and quick learner."
     },
     {
         "id":2,
         "baslik":"Education",
-        "desc":"University : Bülent Ecevit University\nYears : Since 2021\nMajor : Computer Engineering\nGrade : 3th"
+        "desc":"University : Bülent Ecevit University\nYears : Since 2021\nMajor : Computer Engineering\nGrade : 4th"
     },
     {
         "id":3,
