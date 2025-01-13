@@ -78,7 +78,7 @@ import { FiSend } from "react-icons/fi";
         </div>
         <div>
         <FiPhone />
-          <p>+(90)552 740 26 18</p>
+          <p>+(90)555 555 55 55</p>
         </div>
         <div>
         <TfiLocationPin />
