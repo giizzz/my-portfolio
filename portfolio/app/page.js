@@ -12,7 +12,7 @@ const page = () => {
 
   const download = async () => {
     try {
-      const response = await fetch('/data/cv.pdf', {
+      const response = await fetch('/data/Gizem_Piroglu_cv_ing.pdf', {
         method: 'GET',
         headers: {
           'Content-Type': 'application/octet-stream',
